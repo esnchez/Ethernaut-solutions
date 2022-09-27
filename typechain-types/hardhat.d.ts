@@ -13,6 +13,14 @@ import * as Contracts from ".";
 declare module "hardhat/types/runtime" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
     getContractFactory(
+      name: "ERC20",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ERC20__factory>;
+    getContractFactory(
+      name: "IERC20",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IERC20__factory>;
+    getContractFactory(
       name: "CoinFlip",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.CoinFlip__factory>;
@@ -61,6 +69,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.GatekeeperOneAttack__factory>;
     getContractFactory(
+      name: "GatekeeperTwo",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.GatekeeperTwo__factory>;
+    getContractFactory(
+      name: "GatekeeperTwoAttack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.GatekeeperTwoAttack__factory>;
+    getContractFactory(
       name: "King",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.King__factory>;
@@ -68,6 +84,10 @@ declare module "hardhat/types/runtime" {
       name: "KingAttack",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.KingAttack__factory>;
+    getContractFactory(
+      name: "NaughtCoin",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.NaughtCoin__factory>;
     getContractFactory(
       name: "Privacy",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -97,6 +117,16 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Vault__factory>;
 
+    getContractAt(
+      name: "ERC20",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.ERC20>;
+    getContractAt(
+      name: "IERC20",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IERC20>;
     getContractAt(
       name: "CoinFlip",
       address: string,
@@ -158,6 +188,16 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.GatekeeperOneAttack>;
     getContractAt(
+      name: "GatekeeperTwo",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.GatekeeperTwo>;
+    getContractAt(
+      name: "GatekeeperTwoAttack",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.GatekeeperTwoAttack>;
+    getContractAt(
       name: "King",
       address: string,
       signer?: ethers.Signer
@@ -167,6 +207,11 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.KingAttack>;
+    getContractAt(
+      name: "NaughtCoin",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.NaughtCoin>;
     getContractAt(
       name: "Privacy",
       address: string,

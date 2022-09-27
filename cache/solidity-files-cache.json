@@ -1,116 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Fallback.sol": {
-      "lastModificationDate": 1663783280508,
-      "contentHash": "4c52be81a362148e6c6b993f4c751008",
-      "sourceName": "contracts/Fallback.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/math/SafeMath.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Fallback"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
-      "lastModificationDate": 1663783538094,
-      "contentHash": "168f50d923a8f64094d8e761ca2e5fe6",
-      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "SafeMath"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Fallout.sol": {
-      "lastModificationDate": 1663786854062,
-      "contentHash": "b98b01eb8664be9475e2a08cb9b59ca3",
-      "sourceName": "contracts/Fallout.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/math/SafeMath.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Fallout"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/CoinFlip.sol": {
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/CoinFlip.sol": {
       "lastModificationDate": 1663787828646,
       "contentHash": "b744afc4f0d7fbd49e7d3b7747f7fd64",
       "sourceName": "contracts/CoinFlip.sol",
@@ -147,7 +38,42 @@
         "CoinFlip"
       ]
     },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/CoinFlipAttack.sol": {
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1663783538094,
+      "contentHash": "168f50d923a8f64094d8e761ca2e5fe6",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/CoinFlipAttack.sol": {
       "lastModificationDate": 1663790898832,
       "contentHash": "0430b610c7063d171e8979a66a0bf7cc",
       "sourceName": "contracts/CoinFlipAttack.sol",
@@ -185,366 +111,7 @@
         "CoinFlipAttack"
       ]
     },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Telephone.sol": {
-      "lastModificationDate": 1663901375054,
-      "contentHash": "d245c4afcf0dffefc095977a8787cb4f",
-      "sourceName": "contracts/Telephone.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Telephone"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/TelephoneAttack.sol": {
-      "lastModificationDate": 1663903479048,
-      "contentHash": "d828ed569fdb13c079552f4eaa828374",
-      "sourceName": "contracts/TelephoneAttack.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./Telephone.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "TelephoneAttack"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Token.sol": {
-      "lastModificationDate": 1663903630403,
-      "contentHash": "6565659068c6dbb15dc95d52d3fb91d5",
-      "sourceName": "contracts/Token.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Token"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Delegation.sol": {
-      "lastModificationDate": 1663908535963,
-      "contentHash": "7cc8fdb388845e267654a63e9ed9bacb",
-      "sourceName": "contracts/Delegation.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Delegate",
-        "Delegation"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Force.sol": {
-      "lastModificationDate": 1663924063716,
-      "contentHash": "914d9bbaf00ab8fb80bebb2b542392ae",
-      "sourceName": "contracts/Force.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Force"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/ForceAttack.sol": {
-      "lastModificationDate": 1663926477194,
-      "contentHash": "961c6aebff3c7692192858592cd38622",
-      "sourceName": "contracts/ForceAttack.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./Force.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "ForceAttack"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Vault.sol": {
-      "lastModificationDate": 1663926768541,
-      "contentHash": "14156c84a46f8e0cf2e82abb8586dff3",
-      "sourceName": "contracts/Vault.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Vault"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/King.sol": {
-      "lastModificationDate": 1663980330981,
-      "contentHash": "36bb47c7d70f9cdfe195ff2fbd0b0cbe",
-      "sourceName": "contracts/King.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "King"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/KingAttack.sol": {
-      "lastModificationDate": 1663984933068,
-      "contentHash": "09cda6eb2b0e80f15283c84539b850f3",
-      "sourceName": "contracts/KingAttack.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./King.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "KingAttack"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Reentrance.sol": {
-      "lastModificationDate": 1663985020632,
-      "contentHash": "cbd702d6e3a6304639dd48c10a05cf89",
-      "sourceName": "contracts/Reentrance.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/math/SafeMath.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Reentrance"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/ReentranceAttack.sol": {
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/ReentranceAttack.sol": {
       "lastModificationDate": 1664034191600,
       "contentHash": "5bea61f236458edefcc1bed433e06083",
       "sourceName": "contracts/ReentranceAttack.sol",
@@ -582,46 +149,10 @@
         "ReentranceAttack"
       ]
     },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Elevator.sol": {
-      "lastModificationDate": 1664031547598,
-      "contentHash": "676d87aa15465f8014defb6ca6b7edfc",
-      "sourceName": "contracts/Elevator.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 1000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "Building",
-        "Elevator"
-      ]
-    },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/ElevatorAttack.sol": {
-      "lastModificationDate": 1664160957861,
-      "contentHash": "8397c9ffb08c4219f59609935b1b056e",
-      "sourceName": "contracts/ElevatorAttack.sol",
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Reentrance.sol": {
+      "lastModificationDate": 1663985020632,
+      "contentHash": "cbd702d6e3a6304639dd48c10a05cf89",
+      "sourceName": "contracts/Reentrance.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
@@ -646,19 +177,19 @@
         }
       },
       "imports": [
-        "./Elevator.sol"
+        "@openzeppelin/contracts/math/SafeMath.sol"
       ],
       "versionPragmas": [
         "^0.6.0"
       ],
       "artifacts": [
-        "ElevatorAttack"
+        "Reentrance"
       ]
     },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/Privacy.sol": {
-      "lastModificationDate": 1664161640254,
-      "contentHash": "c4e2598f556b45163990b1f5a99dbd7f",
-      "sourceName": "contracts/Privacy.sol",
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/GatekeeperOneAttack.sol": {
+      "lastModificationDate": 1664283499674,
+      "contentHash": "886f01ce2d6838262273ff0956ef091c",
+      "sourceName": "contracts/GatekeeperOneAttack.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
@@ -682,15 +213,18 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./GatekeeperOne.sol"
+      ],
       "versionPragmas": [
         "^0.6.0"
       ],
       "artifacts": [
-        "Privacy"
+        "GatekeeperOneAttack"
       ]
     },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/GatekeeperOne.sol": {
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/GatekeeperOne.sol": {
       "lastModificationDate": 1664169806273,
       "contentHash": "fed4d5d54436f1f6d7dec850eb3cdf1e",
       "sourceName": "contracts/GatekeeperOne.sol",
@@ -727,10 +261,514 @@
         "GatekeeperOne"
       ]
     },
-    "/home/eric/Escritorio/Security && Auditing/ethernaut-solutions/contracts/GatekeeperOneAttack.sol": {
-      "lastModificationDate": 1664217982151,
-      "contentHash": "18b1a05913d03e54bc9ca0fc5950802c",
-      "sourceName": "contracts/GatekeeperOneAttack.sol",
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Fallout.sol": {
+      "lastModificationDate": 1663786854062,
+      "contentHash": "b98b01eb8664be9475e2a08cb9b59ca3",
+      "sourceName": "contracts/Fallout.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Fallout"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Fallback.sol": {
+      "lastModificationDate": 1663783280508,
+      "contentHash": "4c52be81a362148e6c6b993f4c751008",
+      "sourceName": "contracts/Fallback.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Fallback"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Delegation.sol": {
+      "lastModificationDate": 1663908535963,
+      "contentHash": "7cc8fdb388845e267654a63e9ed9bacb",
+      "sourceName": "contracts/Delegation.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Delegate",
+        "Delegation"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Elevator.sol": {
+      "lastModificationDate": 1664031547598,
+      "contentHash": "676d87aa15465f8014defb6ca6b7edfc",
+      "sourceName": "contracts/Elevator.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Building",
+        "Elevator"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/ElevatorAttack.sol": {
+      "lastModificationDate": 1664160957861,
+      "contentHash": "8397c9ffb08c4219f59609935b1b056e",
+      "sourceName": "contracts/ElevatorAttack.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Elevator.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ElevatorAttack"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Force.sol": {
+      "lastModificationDate": 1663924063716,
+      "contentHash": "914d9bbaf00ab8fb80bebb2b542392ae",
+      "sourceName": "contracts/Force.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Force"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/ForceAttack.sol": {
+      "lastModificationDate": 1663926477194,
+      "contentHash": "961c6aebff3c7692192858592cd38622",
+      "sourceName": "contracts/ForceAttack.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Force.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ForceAttack"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/King.sol": {
+      "lastModificationDate": 1663980330981,
+      "contentHash": "36bb47c7d70f9cdfe195ff2fbd0b0cbe",
+      "sourceName": "contracts/King.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "King"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/KingAttack.sol": {
+      "lastModificationDate": 1663984933068,
+      "contentHash": "09cda6eb2b0e80f15283c84539b850f3",
+      "sourceName": "contracts/KingAttack.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./King.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "KingAttack"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Privacy.sol": {
+      "lastModificationDate": 1664161640254,
+      "contentHash": "c4e2598f556b45163990b1f5a99dbd7f",
+      "sourceName": "contracts/Privacy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Privacy"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Telephone.sol": {
+      "lastModificationDate": 1663901375054,
+      "contentHash": "d245c4afcf0dffefc095977a8787cb4f",
+      "sourceName": "contracts/Telephone.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Telephone"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/TelephoneAttack.sol": {
+      "lastModificationDate": 1663903479048,
+      "contentHash": "d828ed569fdb13c079552f4eaa828374",
+      "sourceName": "contracts/TelephoneAttack.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Telephone.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "TelephoneAttack"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Token.sol": {
+      "lastModificationDate": 1663903630403,
+      "contentHash": "6565659068c6dbb15dc95d52d3fb91d5",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Vault.sol": {
+      "lastModificationDate": 1663926768541,
+      "contentHash": "14156c84a46f8e0cf2e82abb8586dff3",
+      "sourceName": "contracts/Vault.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Vault"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/GatekeeperTwoAttack.sol": {
+      "lastModificationDate": 1664311154589,
+      "contentHash": "d528f42959c272d7f9e9f5db60953139",
+      "sourceName": "contracts/GatekeeperTwoAttack.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
@@ -756,13 +794,230 @@
       },
       "imports": [
         "@openzeppelin/contracts/math/SafeMath.sol",
-        "./GatekeeperOne.sol"
+        "./GatekeeperTwo.sol"
       ],
       "versionPragmas": [
         "^0.6.0"
       ],
       "artifacts": [
-        "GatekeeperOneAttack"
+        "GatekeeperTwoAttack"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/GatekeeperTwo.sol": {
+      "lastModificationDate": 1664282613434,
+      "contentHash": "7ab8c6ec874c237d8ec7706be0235ff8",
+      "sourceName": "contracts/GatekeeperTwo.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "GatekeeperTwo"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1663783538106,
+      "contentHash": "620e59a5f2a9fe517c47500d5a27af91",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/node_modules/@openzeppelin/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1663783538090,
+      "contentHash": "af1b36323856d0d1550abc7f878a8208",
+      "sourceName": "@openzeppelin/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1663783538106,
+      "contentHash": "95e76adf687e1a31a4b8ece4e9bb757a",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1663783538094,
+      "contentHash": "6b0498e1feb1d70edaf0ee5546e07a46",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.2"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/NaughtCoin.sol": {
+      "lastModificationDate": 1664311406853,
+      "contentHash": "2535854842bf0f1886610dac331c7e9b",
+      "sourceName": "contracts/NaughtCoin.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "NaughtCoin"
       ]
     }
   }
