@@ -1,0 +1,29 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ForceAttack",
+  "sourceName": "contracts/ForceAttack.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_address",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "feed",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b506040516100dc3803806100dc83398181016040526020811015603157600080fd5b5051600080546001600160a01b039092166001600160a01b0319909216919091179055607a806100626000396000f3fe608060405260043610601c5760003560e01c806337a7b7d8146021575b600080fd5b60276029565b005b60005473ffffffffffffffffffffffffffffffffffffffff16fffea26469706673582212206f8b3aeae34cb219e6b2c788492d89c5ffe43105ab7965e3b808da1cbcb57fec64736f6c634300060c0033",
+  "deployedBytecode": "0x608060405260043610601c5760003560e01c806337a7b7d8146021575b600080fd5b60276029565b005b60005473ffffffffffffffffffffffffffffffffffffffff16fffea26469706673582212206f8b3aeae34cb219e6b2c788492d89c5ffe43105ab7965e3b808da1cbcb57fec64736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

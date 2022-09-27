@@ -1,0 +1,22 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "GatekeeperOneAttack",
+  "sourceName": "contracts/GatekeeperOneAttack.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_address",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50604051609e380380609e83398181016040526020811015602f57600080fd5b5051600080546001600160a01b039092166001600160a01b0319909216919091179055603f80605f6000396000f3fe6080604052600080fdfea26469706673582212208544c3770dae04fccd8d590055a1658f927022a99fef8a688ff903a6de4249b164736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208544c3770dae04fccd8d590055a1658f927022a99fef8a688ff903a6de4249b164736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,3 @@
+
+yarn hardhat compile
+yarn hardhat run scripts/{name}.ts --network localhost
