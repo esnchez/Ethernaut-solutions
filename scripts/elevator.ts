@@ -1,18 +1,17 @@
-import { TransactionRequest } from "@ethersproject/providers";
 import { ethers } from "hardhat";
 
+//Fit player address chosen from hardhat node addresses and contract address (current lvl instance)
 const PLAYER_ADDRESS = "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc";
 const CONTRACT_ADDRESS = "0xf41B47c54dEFF12f8fE830A411a09D865eBb120E";
 
 async function main() {
- 
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
-//Fit contract name and address (current lvl instance)
 const contract = await ethers.getContractAt("Elevator",CONTRACT_ADDRESS, signer);
 
 const attackerContractFactory = await ethers.getContractFactory("ElevatorAttack", signer);
 const attackerContract = await attackerContractFactory.deploy(contract.address);
+
+//HACK STEPS
 
 // 1. Check current top and floor values
 console.log("Are we on top floor?: ", await contract.top());

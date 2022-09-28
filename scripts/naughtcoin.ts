@@ -7,7 +7,6 @@ const CONTRACT_ADDRESS = "0xe1E6c2431Dc5a20dE405A294D70522CFE0e12AFe";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
 const contract = await ethers.getContractAt("NaughtCoin", CONTRACT_ADDRESS, signer);
 
 //HACK STEPS
@@ -50,7 +49,6 @@ const spenderBalance = await contract.balanceOf(SPENDER_ADDRESS)
 
 console.log("Player final balance: ", playerBalance.toString())
 console.log("Spender final balance: ", spenderBalance.toString())
-
 }
 
 // We recommend this pattern to be able to use async/await everywhere

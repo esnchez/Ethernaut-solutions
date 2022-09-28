@@ -6,7 +6,6 @@ const CONTRACT_ADDRESS = "0x524F04724632eED237cbA3c37272e018b3A7967e";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
 const contract = await ethers.getContractAt("GatekeeperTwo", CONTRACT_ADDRESS, signer);
 
 //HACK STEPS

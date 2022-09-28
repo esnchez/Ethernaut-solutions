@@ -8,7 +8,6 @@ const CONTRACT_ADDRESS = "0xfF09adb2803168523817a2c9Dd50400FC80ddD1c";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
 const contract = await ethers.getContractAt("Preservation", CONTRACT_ADDRESS, signer);
 
 const attackerContractFactory = await ethers.getContractFactory("PreservationAttack", signer);

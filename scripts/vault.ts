@@ -1,17 +1,16 @@
 import { ethers } from "hardhat";
 // import { getStorageAt } from "@nomicfoundation/hardhat-network-helpers";
 
-
+//Fit player address chosen from hardhat node addresses and contract address (current lvl instance)
 const PLAYER_ADDRESS = "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc";
 const CONTRACT_ADDRESS = "0x8aCd85898458400f7Db866d53FCFF6f0D49741FF";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
 // const provider =  new ethers.providers.JsonRpcProvider("http://localhost:8545");
-
-
-//Fit contract name and address (current lvl instance)
 const contract = await ethers.getContractAt("Vault" ,CONTRACT_ADDRESS, signer);
+
+//HACK STEPS
 
 // 1. Check locked value
 console.log("locked value is: ", await contract.locked());

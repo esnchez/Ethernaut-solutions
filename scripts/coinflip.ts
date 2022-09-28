@@ -1,14 +1,14 @@
-import { TransactionRequest } from "@ethersproject/providers";
 import { ethers } from "hardhat";
 
+//Fit player address chosen from hardhat node addresses and contract address (current lvl instance)
 const PLAYER_ADDRESS = "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc";
 const CONTRACT_ADDRESS = "0xd8058efe0198ae9dD7D563e1b4938Dcbc86A1F81";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
-//Fit contract name and address (current lvl instance)
 const contract = await ethers.getContractAt("CoinFlip",CONTRACT_ADDRESS,signer);
+
+//HACK STEPS
 
 // 1. Deploy attacker contract, same signer (player address). 
 const attackerContractFactory = await ethers.getContractFactory("CoinFlipAttack", signer);

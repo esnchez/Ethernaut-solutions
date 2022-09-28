@@ -7,3 +7,11 @@ Commands
 
 yarn hardhat compile
 yarn hardhat run scripts/{name}.ts --network localhost
+
+
+Complete some part / figure out strange behaviour..
+
+Privacy
+Vault , both depending on get storage 
+
+Preservation, second delegatecall does not work 

