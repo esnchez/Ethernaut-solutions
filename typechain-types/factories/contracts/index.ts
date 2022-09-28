@@ -3,6 +3,7 @@
 /* eslint-disable */
 export * as delegationSol from "./Delegation.sol";
 export * as elevatorSol from "./Elevator.sol";
+export * as preservationSol from "./Preservation.sol";
 export { CoinFlip__factory } from "./CoinFlip__factory";
 export { CoinFlipAttack__factory } from "./CoinFlipAttack__factory";
 export { ElevatorAttack__factory } from "./ElevatorAttack__factory";
@@ -16,6 +17,7 @@ export { GatekeeperTwoAttack__factory } from "./GatekeeperTwoAttack__factory";
 export { King__factory } from "./King__factory";
 export { KingAttack__factory } from "./KingAttack__factory";
 export { NaughtCoin__factory } from "./NaughtCoin__factory";
+export { PreservationAttack__factory } from "./PreservationAttack__factory";
 export { Privacy__factory } from "./Privacy__factory";
 export { Reentrance__factory } from "./Reentrance__factory";
 export { ReentranceAttack__factory } from "./ReentranceAttack__factory";

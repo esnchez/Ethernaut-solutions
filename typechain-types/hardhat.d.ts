@@ -89,6 +89,18 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.NaughtCoin__factory>;
     getContractFactory(
+      name: "LibraryContract",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.LibraryContract__factory>;
+    getContractFactory(
+      name: "Preservation",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Preservation__factory>;
+    getContractFactory(
+      name: "PreservationAttack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.PreservationAttack__factory>;
+    getContractFactory(
       name: "Privacy",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Privacy__factory>;
@@ -212,6 +224,21 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.NaughtCoin>;
+    getContractAt(
+      name: "LibraryContract",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.LibraryContract>;
+    getContractAt(
+      name: "Preservation",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Preservation>;
+    getContractAt(
+      name: "PreservationAttack",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.PreservationAttack>;
     getContractAt(
       name: "Privacy",
       address: string,
