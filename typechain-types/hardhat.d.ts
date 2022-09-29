@@ -45,6 +45,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Delegation__factory>;
     getContractFactory(
+      name: "Denial",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Denial__factory>;
+    getContractFactory(
+      name: "DenialAttack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.DenialAttack__factory>;
+    getContractFactory(
       name: "Building",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Building__factory>;
@@ -189,6 +197,16 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.Delegation>;
+    getContractAt(
+      name: "Denial",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Denial>;
+    getContractAt(
+      name: "DenialAttack",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.DenialAttack>;
     getContractAt(
       name: "Building",
       address: string,

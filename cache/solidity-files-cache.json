@@ -1204,6 +1204,80 @@
         "Context",
         "Ownable"
       ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/Denial.sol": {
+      "lastModificationDate": 1664434835376,
+      "contentHash": "4b98aabc51aa3bda2cf57a4ed0ff3d8f",
+      "sourceName": "contracts/Denial.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Denial"
+      ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/DenialAttack.sol": {
+      "lastModificationDate": 1664437772727,
+      "contentHash": "7205a7439a4e28431bb84efff940f804",
+      "sourceName": "contracts/DenialAttack.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Denial.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "DenialAttack"
+      ]
     }
   }
 }

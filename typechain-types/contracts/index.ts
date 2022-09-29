@@ -13,6 +13,8 @@ import type * as recoverySol from "./Recovery.sol";
 export type { recoverySol };
 export type { CoinFlip } from "./CoinFlip";
 export type { CoinFlipAttack } from "./CoinFlipAttack";
+export type { Denial } from "./Denial";
+export type { DenialAttack } from "./DenialAttack";
 export type { ElevatorAttack } from "./ElevatorAttack";
 export type { Fallback } from "./Fallback";
 export type { Fallout } from "./Fallout";

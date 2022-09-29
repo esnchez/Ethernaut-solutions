@@ -8,6 +8,8 @@ export * as preservationSol from "./Preservation.sol";
 export * as recoverySol from "./Recovery.sol";
 export { CoinFlip__factory } from "./CoinFlip__factory";
 export { CoinFlipAttack__factory } from "./CoinFlipAttack__factory";
+export { Denial__factory } from "./Denial__factory";
+export { DenialAttack__factory } from "./DenialAttack__factory";
 export { ElevatorAttack__factory } from "./ElevatorAttack__factory";
 export { Fallback__factory } from "./Fallback__factory";
 export { Fallout__factory } from "./Fallout__factory";
