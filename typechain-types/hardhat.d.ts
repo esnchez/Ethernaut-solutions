@@ -105,6 +105,18 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Privacy__factory>;
     getContractFactory(
+      name: "Recovery",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Recovery__factory>;
+    getContractFactory(
+      name: "SimpleToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.SimpleToken__factory>;
+    getContractFactory(
+      name: "RecoveryAttack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.RecoveryAttack__factory>;
+    getContractFactory(
       name: "Reentrance",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Reentrance__factory>;
@@ -244,6 +256,21 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.Privacy>;
+    getContractAt(
+      name: "Recovery",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Recovery>;
+    getContractAt(
+      name: "SimpleToken",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.SimpleToken>;
+    getContractAt(
+      name: "RecoveryAttack",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.RecoveryAttack>;
     getContractAt(
       name: "Reentrance",
       address: string,
