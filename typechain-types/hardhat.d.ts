@@ -21,6 +21,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.IERC20__factory>;
     getContractFactory(
+      name: "AlienCodex",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.AlienCodex__factory>;
+    getContractFactory(
+      name: "Ownable",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Ownable__factory>;
+    getContractFactory(
       name: "CoinFlip",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.CoinFlip__factory>;
@@ -151,6 +159,16 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.IERC20>;
+    getContractAt(
+      name: "AlienCodex",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.AlienCodex>;
+    getContractAt(
+      name: "Ownable",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Ownable>;
     getContractAt(
       name: "CoinFlip",
       address: string,

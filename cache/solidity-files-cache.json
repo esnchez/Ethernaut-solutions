@@ -1167,6 +1167,43 @@
       "artifacts": [
         "RecoveryAttack"
       ]
+    },
+    "/home/eric/Escritorio/Security_Auditing/The-Ethernaut/contracts/AlienCodex.sol": {
+      "lastModificationDate": 1664415229575,
+      "contentHash": "f1a6dbc25e9e47319c8d52ccbb9b30e5",
+      "sourceName": "contracts/AlienCodex.sol",
+      "solcConfig": {
+        "version": "0.5.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.5.0"
+      ],
+      "artifacts": [
+        "AlienCodex",
+        "Context",
+        "Ownable"
+      ]
     }
   }
 }
