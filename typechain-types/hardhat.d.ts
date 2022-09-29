@@ -141,6 +141,18 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ReentranceAttack__factory>;
     getContractFactory(
+      name: "Buyer",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Buyer__factory>;
+    getContractFactory(
+      name: "Shop",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Shop__factory>;
+    getContractFactory(
+      name: "ShopAttack",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ShopAttack__factory>;
+    getContractFactory(
       name: "Telephone",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Telephone__factory>;
@@ -317,6 +329,21 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.ReentranceAttack>;
+    getContractAt(
+      name: "Buyer",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Buyer>;
+    getContractAt(
+      name: "Shop",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Shop>;
+    getContractAt(
+      name: "ShopAttack",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.ShopAttack>;
     getContractAt(
       name: "Telephone",
       address: string,
