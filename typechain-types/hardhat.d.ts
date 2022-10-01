@@ -65,6 +65,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.SwappableToken__factory>;
     getContractFactory(
+      name: "DexTwo",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.DexTwo__factory>;
+    getContractFactory(
+      name: "SwappableTokenTwo",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.SwappableTokenTwo__factory>;
+    getContractFactory(
       name: "Building",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Building__factory>;
@@ -246,6 +254,16 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.SwappableToken>;
+    getContractAt(
+      name: "DexTwo",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.DexTwo>;
+    getContractAt(
+      name: "SwappableTokenTwo",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.SwappableTokenTwo>;
     getContractAt(
       name: "Building",
       address: string,

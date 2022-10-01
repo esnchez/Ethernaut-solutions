@@ -7,6 +7,8 @@ import type * as delegationSol from "./Delegation.sol";
 export type { delegationSol };
 import type * as dexSol from "./Dex.sol";
 export type { dexSol };
+import type * as dexTwoSol from "./DexTwo.sol";
+export type { dexTwoSol };
 import type * as elevatorSol from "./Elevator.sol";
 export type { elevatorSol };
 import type * as preservationSol from "./Preservation.sol";
