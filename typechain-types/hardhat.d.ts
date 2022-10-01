@@ -13,6 +13,10 @@ import * as Contracts from ".";
 declare module "hardhat/types/runtime" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
     getContractFactory(
+      name: "Ownable",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Ownable__factory>;
+    getContractFactory(
       name: "ERC20",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ERC20__factory>;
@@ -52,6 +56,14 @@ declare module "hardhat/types/runtime" {
       name: "DenialAttack",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.DenialAttack__factory>;
+    getContractFactory(
+      name: "Dex",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Dex__factory>;
+    getContractFactory(
+      name: "SwappableToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.SwappableToken__factory>;
     getContractFactory(
       name: "Building",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -170,6 +182,11 @@ declare module "hardhat/types/runtime" {
     ): Promise<Contracts.Vault__factory>;
 
     getContractAt(
+      name: "Ownable",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Ownable>;
+    getContractAt(
       name: "ERC20",
       address: string,
       signer?: ethers.Signer
@@ -219,6 +236,16 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.DenialAttack>;
+    getContractAt(
+      name: "Dex",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Dex>;
+    getContractAt(
+      name: "SwappableToken",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.SwappableToken>;
     getContractAt(
       name: "Building",
       address: string,

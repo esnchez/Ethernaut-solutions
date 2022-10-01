@@ -3,6 +3,7 @@
 /* eslint-disable */
 export * as alienCodexSol from "./AlienCodex.sol";
 export * as delegationSol from "./Delegation.sol";
+export * as dexSol from "./Dex.sol";
 export * as elevatorSol from "./Elevator.sol";
 export * as preservationSol from "./Preservation.sol";
 export * as recoverySol from "./Recovery.sol";
