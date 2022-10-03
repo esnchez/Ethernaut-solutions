@@ -13,6 +13,8 @@ import type * as elevatorSol from "./Elevator.sol";
 export type { elevatorSol };
 import type * as preservationSol from "./Preservation.sol";
 export type { preservationSol };
+import type * as puzzleWalletSol from "./PuzzleWallet.sol";
+export type { puzzleWalletSol };
 import type * as recoverySol from "./Recovery.sol";
 export type { recoverySol };
 import type * as shopSol from "./Shop.sol";

@@ -17,6 +17,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Ownable__factory>;
     getContractFactory(
+      name: "Proxy",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Proxy__factory>;
+    getContractFactory(
+      name: "UpgradeableProxy",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.UpgradeableProxy__factory>;
+    getContractFactory(
       name: "ERC20",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ERC20__factory>;
@@ -141,6 +149,14 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Privacy__factory>;
     getContractFactory(
+      name: "PuzzleProxy",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.PuzzleProxy__factory>;
+    getContractFactory(
+      name: "PuzzleWallet",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.PuzzleWallet__factory>;
+    getContractFactory(
       name: "Recovery",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Recovery__factory>;
@@ -194,6 +210,16 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.Ownable>;
+    getContractAt(
+      name: "Proxy",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Proxy>;
+    getContractAt(
+      name: "UpgradeableProxy",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.UpgradeableProxy>;
     getContractAt(
       name: "ERC20",
       address: string,
@@ -349,6 +375,16 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.Privacy>;
+    getContractAt(
+      name: "PuzzleProxy",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.PuzzleProxy>;
+    getContractAt(
+      name: "PuzzleWallet",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.PuzzleWallet>;
     getContractAt(
       name: "Recovery",
       address: string,

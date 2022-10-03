@@ -7,6 +7,7 @@ export * as dexSol from "./Dex.sol";
 export * as dexTwoSol from "./DexTwo.sol";
 export * as elevatorSol from "./Elevator.sol";
 export * as preservationSol from "./Preservation.sol";
+export * as puzzleWalletSol from "./PuzzleWallet.sol";
 export * as recoverySol from "./Recovery.sol";
 export * as shopSol from "./Shop.sol";
 export { CoinFlip__factory } from "./CoinFlip__factory";
