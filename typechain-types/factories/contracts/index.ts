@@ -6,6 +6,8 @@ export * as delegationSol from "./Delegation.sol";
 export * as dexSol from "./Dex.sol";
 export * as dexTwoSol from "./DexTwo.sol";
 export * as elevatorSol from "./Elevator.sol";
+export * as motorbikeSol from "./Motorbike.sol";
+export * as motorbikeAttackSol from "./MotorbikeAttack.sol";
 export * as preservationSol from "./Preservation.sol";
 export * as puzzleWalletSol from "./PuzzleWallet.sol";
 export * as recoverySol from "./Recovery.sol";

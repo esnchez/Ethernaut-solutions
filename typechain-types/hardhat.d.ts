@@ -129,6 +129,22 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.KingAttack__factory>;
     getContractFactory(
+      name: "Engine",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Engine__factory>;
+    getContractFactory(
+      name: "Motorbike",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Motorbike__factory>;
+    getContractFactory(
+      name: "Engine",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Engine__factory>;
+    getContractFactory(
+      name: "EngineV2",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.EngineV2__factory>;
+    getContractFactory(
       name: "NaughtCoin",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.NaughtCoin__factory>;
@@ -350,6 +366,26 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.KingAttack>;
+    getContractAt(
+      name: "Engine",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Engine>;
+    getContractAt(
+      name: "Motorbike",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Motorbike>;
+    getContractAt(
+      name: "Engine",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Engine>;
+    getContractAt(
+      name: "EngineV2",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.EngineV2>;
     getContractAt(
       name: "NaughtCoin",
       address: string,
