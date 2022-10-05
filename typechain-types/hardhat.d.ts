@@ -81,6 +81,46 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.SwappableTokenTwo__factory>;
     getContractFactory(
+      name: "CryptoVault",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.CryptoVault__factory>;
+    getContractFactory(
+      name: "DelegateERC20",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.DelegateERC20__factory>;
+    getContractFactory(
+      name: "DoubleEntryPoint",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.DoubleEntryPoint__factory>;
+    getContractFactory(
+      name: "Forta",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Forta__factory>;
+    getContractFactory(
+      name: "IDetectionBot",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IDetectionBot__factory>;
+    getContractFactory(
+      name: "IForta",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IForta__factory>;
+    getContractFactory(
+      name: "LegacyToken",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.LegacyToken__factory>;
+    getContractFactory(
+      name: "DetectionBot",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.DetectionBot__factory>;
+    getContractFactory(
+      name: "IDetectionBot",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IDetectionBot__factory>;
+    getContractFactory(
+      name: "IForta",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IForta__factory>;
+    getContractFactory(
       name: "Building",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Building__factory>;
@@ -136,10 +176,6 @@ declare module "hardhat/types/runtime" {
       name: "Motorbike",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Motorbike__factory>;
-    getContractFactory(
-      name: "Engine",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.Engine__factory>;
     getContractFactory(
       name: "EngineV2",
       signerOrOptions?: ethers.Signer | FactoryOptions
@@ -307,6 +343,56 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.SwappableTokenTwo>;
     getContractAt(
+      name: "CryptoVault",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.CryptoVault>;
+    getContractAt(
+      name: "DelegateERC20",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.DelegateERC20>;
+    getContractAt(
+      name: "DoubleEntryPoint",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.DoubleEntryPoint>;
+    getContractAt(
+      name: "Forta",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Forta>;
+    getContractAt(
+      name: "IDetectionBot",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IDetectionBot>;
+    getContractAt(
+      name: "IForta",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IForta>;
+    getContractAt(
+      name: "LegacyToken",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.LegacyToken>;
+    getContractAt(
+      name: "DetectionBot",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.DetectionBot>;
+    getContractAt(
+      name: "IDetectionBot",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IDetectionBot>;
+    getContractAt(
+      name: "IForta",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IForta>;
+    getContractAt(
       name: "Building",
       address: string,
       signer?: ethers.Signer
@@ -376,11 +462,6 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.Motorbike>;
-    getContractAt(
-      name: "Engine",
-      address: string,
-      signer?: ethers.Signer
-    ): Promise<Contracts.Engine>;
     getContractAt(
       name: "EngineV2",
       address: string,

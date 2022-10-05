@@ -5,6 +5,8 @@ export * as alienCodexSol from "./AlienCodex.sol";
 export * as delegationSol from "./Delegation.sol";
 export * as dexSol from "./Dex.sol";
 export * as dexTwoSol from "./DexTwo.sol";
+export * as doubleEpBotSol from "./DoubleEPBot.sol";
+export * as doubleEntryPointSol from "./DoubleEntryPoint.sol";
 export * as elevatorSol from "./Elevator.sol";
 export * as motorbikeSol from "./Motorbike.sol";
 export * as motorbikeAttackSol from "./MotorbikeAttack.sol";
