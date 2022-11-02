@@ -1,6 +1,6 @@
 # Ethernaut solutions
 
-In contracts folder, there are the original Ethernaut contracts and, whenever it is needed, a malicious contract file named as the current challenge plus attack keyword. This attacker contract is also deployed in the script. Also, every script includes notes to clarify the process of solving each level. 
+In contracts folder, there are the original Ethernaut contracts and, whenever it is needed, a malicious contract file mostly named as the current challenge plus "attack" keyword. This attacking contract is also deployed in the script. Also, every script includes notes to clarify the process of solving each level.
 
 ### Run challenge solutions 
 
