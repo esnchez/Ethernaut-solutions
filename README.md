@@ -8,12 +8,14 @@ In contracts folder, there are the original Ethernaut contracts and, whenever it
 ```
 git clone https://github.com/esnchez/The-Ethernaut-solutions.git
 yarn install
+```
 
 2. Make sure local network is running (go to ethernaut-local-setup repo to set it up)
 3. Compile contracts
 ```
 yarn hardhat compile
 ```
+
 4. Deploy challenge contract on frontend/client to local network. 
 5. Take the contract address (explore console in developer tools) and place it in the corresponding script. 
 6. Make sure the player address is also changed accordingly.  
